@@ -166,7 +166,6 @@ section {
 .about-text p {
     color: var(--second-color);
     font-size: var(--p-font);
-    font-family: 'Times New Roman', Times, serif;
     line-height: 1.8;
     margin-bottom: 4rem;
 }
