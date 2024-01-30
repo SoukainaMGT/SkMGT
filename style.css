@@ -47,6 +47,10 @@ header {
     letter-spacing: 1px;
     margin-right: auto;
 }
+.logo img{
+    width: auto;
+    height: 50px;
+}
 
 span {
     color: var(--main-color);
@@ -132,6 +136,27 @@ section {
 }
 
 .btn:hover {
+    transform: scale(0.9);
+}
+.dwn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dwn1 .btn {
+    display: inline-block;
+    padding: 12px;
+    background: var(--main-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all .45s ease;
+}
+
+.dwn1 .btn:hover {
     transform: scale(0.9);
 }
 
