@@ -50,6 +50,7 @@ header {
 .logo img{
     width: auto;
     height: 50px;
+    
 }
 
 span {
@@ -192,13 +193,14 @@ section {
     color: var(--second-color);
     font-size: var(--p-font);
     line-height: 1.8;
-    margin-bottom: 4rem;
+    margin-bottom: 1px;
 }
 
 .logos-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logos-container {
